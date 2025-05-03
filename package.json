@@ -1,7 +1,7 @@
 {
   "name": "hiteshbackend",
   "version": "1.0.0",
-  "description": "Learning backend and build ourself...", 
+  "description": "Learning backend and build ourself...",
   "types": "module",
   "main": "main.js",
   "scripts": {
@@ -12,8 +12,15 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "config": "^3.3.12",
+    "cookie-parser": "^1.4.7",
     "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "mongoose": "^8.14.1",
     "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
