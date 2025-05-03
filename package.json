@@ -1,13 +1,14 @@
 {
   "name": "hiteshbackend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learning backend and build ourself...", 
+  "types": "module",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/main.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "reCoderr - build code next level",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
